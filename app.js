@@ -3,4 +3,5 @@ const url = `https://samples.openweathermap.org/data/2.5/forecast/hourly?q=Delhi
 request({ url: url }, (error, response) => {
   const data = JSON.parse(response);
   console.log(data.body);
+  console.log("hello");
 });
